@@ -36,8 +36,7 @@
   <div class="stackedit__right">
     <div class="stackedit__html">
       <h1 id="questions">Questions</h1>
-<p>gist id: emphasized text<br>
-<em>repository URL: <a href="https://github.com/ishanknijhawan/Questions.git">https://github.com/ishanknijhawan/Questions.git</a></em><br>
+<p><em>repository URL: <a href="https://github.com/ishanknijhawan/Questions.git">https://github.com/ishanknijhawan/Questions.git</a></em><br>
 <em>gist ID: 4771e2b719d987ecc7f512a904fa8445</em></p>
 <h2 id="ques1.-how-video-streaming-from-url-works.-what-is-hls-">Ques1. How video streaming from URL works. What is HLS ?</h2>
 <p>Answer: The answer is under construction</p>
