@@ -11,7 +11,7 @@
 <body class="stackedit">
   <div class="stackedit__left">
     <div class="stackedit__toc">
-      
+
 <ul>
 <li><a href="#questions">Questions</a>
 <ul>
@@ -126,22 +126,22 @@ A chat application should have the following features that i’ll be going to di
     var maxWidth &lt;- 1280
     var imgRatio &lt;- actualWidth/actualHeight
     var maxRatio &lt;- maxWidth/maxHeight
-    
+
     if(actualHeight &gt; maxHeight or actualWidth &gt; maxWidth){
-	    if(imgRatio &lt; maxRatio){
-			 imgRatio &lt;- maxHeight/originalHeight
+        if(imgRatio &lt; maxRatio){
+    		 imgRatio &lt;- maxHeight/originalHeight
             originalWidth &lt;- imgRatio * originalWidth
             originalHeight &lt;- maxHeight   
-	    }
+        }
     }
     else if(imgRatio &gt; maxRatio){
-	    imgRatio &lt;- maxWidth/originalWidth
+        imgRatio &lt;- maxWidth/originalWidth
         originalHeight &lt;- imgRatio * originalHeight
         originalWidth &lt;- maxWidth
     }
     else{
-	    originalHeight = maxHeight
-	    originalWidth = maxWidth
+        originalHeight = maxHeight
+        originalWidth = maxWidth
     }
     //image with updated resolution
     var updatedImage = originalWidth x originalHeight
