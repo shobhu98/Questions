@@ -75,31 +75,31 @@ Answer: There are basically two types of compression techniques:
 Whatsapp uses lossy image compression technique to reduce the size of images to a great extent. Consider an 12MP file with a resolution of around 3000x4000 pixels and a file size of around 5.9MB. Whatsapp reduces it to a file size of mere 220KB, with a resolution of 960x1280 with a 50% compressioin rate. If the image already has this resolution, whatsapp doesen't scale it because it is already in its minimum resolution which is set by whatsapp. I tried sending a file of size 960x1280 and it kept the same. Let's see a higher level algorithm of how whatsapp compresses images:
 
     function compressImage(image){
-	    var originalHeight <- *image height*
-	    var orignalWidth <- *image width*
-	    var maxHeight <- 960
-	    var maxWidth <- 1280
-	    var imgRatio <- actualWidth/actualHeight
-	    var maxRatio <- maxWidth/maxHeight
-
-	    if(actualHeight > maxHeight or actualWidth > maxWidth){
-		    if(imgRatio < maxRatio){
-				 imgRatio <- maxHeight/originalHeight
-	            originalWidth <- imgRatio * originalWidth
-	            originalHeight <- maxHeight   
-		    }
-	    }
-	    else if(imgRatio > maxRatio){
-		    imgRatio <- maxWidth/originalWidth
+        var originalHeight <- *image height*
+        var orignalWidth <- *image width*
+        var maxHeight <- 960
+        var maxWidth <- 1280
+        var imgRatio <- actualWidth/actualHeight
+        var maxRatio <- maxWidth/maxHeight
+    
+        if(actualHeight > maxHeight or actualWidth > maxWidth){
+    	    if(imgRatio < maxRatio){
+    			 imgRatio <- maxHeight/originalHeight
+                originalWidth <- imgRatio * originalWidth
+                originalHeight <- maxHeight   
+    	    }
+        }
+        else if(imgRatio > maxRatio){
+    	    imgRatio <- maxWidth/originalWidth
             originalHeight <- imgRatio * originalHeight
             originalWidth <- maxWidth
-	    }
-	    else{
-		    originalHeight = maxHeight
-		    originalWidth = maxWidth
-	    }
-	    //image with updated resolution
-	    var updatedImage = originalWidth x originalHeight
+        }
+        else{
+    	    originalHeight = maxHeight
+    	    originalWidth = maxWidth
+        }
+        //image with updated resolution
+        var updatedImage = originalWidth x originalHeight
     }
 
 
@@ -110,8 +110,9 @@ Whatsapp uses lossy image compression technique to reduce the size of images to 
 - On the other hand, web sockets provide a persistent connection between the client and the server, they are built around **TCP/IP** connection. In this, unlike long polling, the client doesn't have to repeatedly send request to the server. The WebSocket protocol enables interaction between a web browser and a web server with lower overhead than half-duplex alternatives such as HTTP polling, providing real-time data transfer from and to the server. Web sockets have advantages in scenarios in chat application like whatsapp where realtime updation of data is greatly preferred.
 
 > *Web sockets require user to handle lots of exceptions which were taken of in HTTP long polling on it's own*
-- Server side events or SSE provides the mechanism that allows the server to push data to the client asynchronously as soon as the client-server connection is established.  Since SSE is based on HTTP, it has a natural fit with HTTP/2 and can be combined to get the best of both: HTTP/2 handling an efficient transport layer based on multiplexed streams and SSE providing the API up to the applications to enable push. Therefore it is greatly preferred over long polling and web sockets for building real time apps like sensex display, stock update, Covid19 updates, etc.
+>
+> - Server side events or SSE provides the mechanism that allows the server to push data to the client asynchronously as soon as the client-server connection is established.  Since SSE is based on HTTP, it has a natural fit with HTTP/2 and can be combined to get the best of both: HTTP/2 handling an efficient transport layer based on multiplexed streams and SSE providing the API up to the applications to enable push. Therefore it is greatly preferred over long polling and web sockets for building real time apps like sensex display, stock update, Covid19 updates, etc.
 
-## Ques 10. Difference between Main/UI Thread and background Thread.
+## Ques 10. Difference between Main/UI Thread and background Thread !
 ## Ques 11. How does PIP (picture in picture) works in android applications ?
 ## Ques 10. How do type-ahead and autosuggestion work ?  
