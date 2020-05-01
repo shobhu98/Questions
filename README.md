@@ -24,6 +24,9 @@
 <li><a href="#ques7.-how-whatsapp-compresses-images">Ques7. How whatsapp compresses images</a></li>
 <li><a href="#ques8.-what-is-deeplink-">Ques8. What is deeplink ?</a></li>
 <li><a href="#ques9.-difference-between-web-sockets-long-polling-and-server-side-events-sse.">Ques9. Difference between web sockets, long polling and Server Side Events (SSE).</a></li>
+<li><a href="#ques-10.-difference-between-mainui-thread-and-background-thread.">Ques 10. Difference between Main/UI Thread and background Thread.</a></li>
+<li><a href="#ques-11.-how-does-pip-picture-in-picture-works-in-android-applications-">Ques 11. How does PIP (picture in picture) works in android applications ?</a></li>
+<li><a href="#ques-10.-how-do-type-ahead-and-autosuggestion-work-">Ques 10. How do type-ahead and autosuggestion work ?</a></li>
 </ul>
 </li>
 </ul>
@@ -160,6 +163,9 @@ A chat application should have the following features that i’ll be going to di
 <ul>
 <li>Server side events or SSE provides the mechanism that allows the server to push data to the client asynchronously as soon as the client-server connection is established.  Since SSE is based on HTTP, it has a natural fit with HTTP/2 and can be combined to get the best of both: HTTP/2 handling an efficient transport layer based on multiplexed streams and SSE providing the API up to the applications to enable push. Therefore it is greatly preferred over long polling and web sockets for building real time apps like sensex display, stock update, Covid19 updates, etc.</li>
 </ul>
+<h2 id="ques-10.-difference-between-mainui-thread-and-background-thread.">Ques 10. Difference between Main/UI Thread and background Thread.</h2>
+<h2 id="ques-11.-how-does-pip-picture-in-picture-works-in-android-applications-">Ques 11. How does PIP (picture in picture) works in android applications ?</h2>
+<h2 id="ques-10.-how-do-type-ahead-and-autosuggestion-work-">Ques 10. How do type-ahead and autosuggestion work ?</h2>
 
     </div>
   </div>
