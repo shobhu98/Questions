@@ -111,6 +111,7 @@ Whatsapp uses lossy image compression technique to reduce the size of images to 
 
 > *Web sockets require user to handle lots of exceptions which were taken of in HTTP long polling on it's own*
 - Server side events or SSE provides the mechanism that allows the server to push data to the client asynchronously as soon as the client-server connection is established.  Since SSE is based on HTTP, it has a natural fit with HTTP/2 and can be combined to get the best of both: HTTP/2 handling an efficient transport layer based on multiplexed streams and SSE providing the API up to the applications to enable push. Therefore it is greatly preferred over long polling and web sockets for building real time apps like sensex display, stock update, Covid19 updates, etc.
+
 ## Ques 10. Difference between Main/UI Thread and background Thread.
 ## Ques 11. How does PIP (picture in picture) works in android applications ?
 ## Ques 10. How do type-ahead and autosuggestion work ?  
