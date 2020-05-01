@@ -95,22 +95,22 @@ A chat application should have the following features that i’ll be going to di
     var maxWidth &lt;- 1280
     var imgRatio &lt;- actualWidth/actualHeight
     var maxRatio &lt;- maxWidth/maxHeight
-
+    
     if(actualHeight &gt; maxHeight or actualWidth &gt; maxWidth){
-        if(imgRatio &lt; maxRatio){
-    		 imgRatio &lt;- maxHeight/originalHeight
+	    if(imgRatio &lt; maxRatio){
+			 imgRatio &lt;- maxHeight/originalHeight
             originalWidth &lt;- imgRatio * originalWidth
             originalHeight &lt;- maxHeight   
-        }
+	    }
     }
     else if(imgRatio &gt; maxRatio){
-        imgRatio &lt;- maxWidth/originalWidth
+	    imgRatio &lt;- maxWidth/originalWidth
         originalHeight &lt;- imgRatio * originalHeight
         originalWidth &lt;- maxWidth
     }
     else{
-        originalHeight = maxHeight
-        originalWidth = maxWidth
+	    originalHeight = maxHeight
+	    originalWidth = maxWidth
     }
     //image with updated resolution
     var updatedImage = originalWidth x originalHeight
@@ -132,6 +132,7 @@ A chat application should have the following features that i’ll be going to di
 <ul>
 <li>Server side events or SSE provides the mechanism that allows the server to push data to the client asynchronously as soon as the client-server connection is established.  Since SSE is based on HTTP, it has a natural fit with HTTP/2 and can be combined to get the best of both: HTTP/2 handling an efficient transport layer based on multiplexed streams and SSE providing the API up to the applications to enable push. Therefore it is greatly preferred over long polling and web sockets for building real time apps like sensex display, stock update, Covid19 updates, etc.</li>
 </ul>
-## Ques 10. Difference between Main/UI Thread and background Thread. 
-## Ques 11. How does PIP (picture in picture) works in android applications ?
-## Ques 10. How do type-ahead and autosuggestion work ? 
+<h2 id="ques-10.-difference-between-mainui-thread-and-background-thread.">Ques 10. Difference between Main/UI Thread and background Thread.</h2>
+<h2 id="ques-11.-how-does-pip-picture-in-picture-works-in-android-applications-">Ques 11. How does PIP (picture in picture) works in android applications ?</h2>
+<h2 id="ques-10.-how-do-type-ahead-and-autosuggestion-work-">Ques 10. How do type-ahead and autosuggestion work ?</h2>
+
