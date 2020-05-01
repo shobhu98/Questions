@@ -1,10 +1,41 @@
----
-title: Questions
-author: Ishank Nijhawan
+<!DOCTYPE html>
+<html>
 
----
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
-<h1 id="questions">Questions</h1>
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#questions">Questions</a>
+<ul>
+<li><a href="#ques1.-how-video-streaming-from-url-works.-what-is-hls-">Ques1. How video streaming from URL works. What is HLS ?</a></li>
+<li><a href="#ques2.-how-is-video-played-in-android-app-">Ques2. How is video played in Android app ?</a></li>
+<li><a href="#ques3.-how-youtube-changes-video-quality-based-upon-internet-connection">Ques3. How Youtube changes video quality based upon internet connection</a></li>
+<li><a href="#ques4.-how-does-firebase-database-works">Ques4. How does Firebase database works</a></li>
+<li><a href="#ques5.-how-sensex-api-works">Ques5. How sensex API works</a></li>
+<li><a href="#ques6.--explain-whatsapp-system-design">Ques6.  Explain whatsapp system design</a></li>
+<li><a href="#ques7.-how-whatsapp-compresses-images">Ques7. How whatsapp compresses images</a></li>
+<li><a href="#ques8.-what-is-deeplink-">Ques8. What is deeplink ?</a></li>
+<li><a href="#ques9.-difference-between-web-sockets-long-polling-and-server-side-events-sse.">Ques9. Difference between web sockets, long polling and Server Side Events (SSE).</a></li>
+<li><a href="#ques-10.-difference-between-mainui-thread-and-background-thread.">Ques 10. Difference between Main/UI Thread and background Thread.</a></li>
+<li><a href="#ques-11.-how-does-pip-picture-in-picture-works-in-android-applications-">Ques 11. How does PIP (picture in picture) works in android applications ?</a></li>
+<li><a href="#ques-10.-how-do-type-ahead-and-autosuggestion-work-">Ques 10. How do type-ahead and autosuggestion work ?</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="questions">Questions</h1>
 <p><em>repository URL: <a href="https://github.com/ishanknijhawan/Questions.git">https://github.com/ishanknijhawan/Questions.git</a></em><br>
 <em>gist ID: 4771e2b719d987ecc7f512a904fa8445</em></p>
 <h2 id="ques1.-how-video-streaming-from-url-works.-what-is-hls-">Ques1. How video streaming from URL works. What is HLS ?</h2>
@@ -136,3 +167,8 @@ A chat application should have the following features that i’ll be going to di
 <h2 id="ques-11.-how-does-pip-picture-in-picture-works-in-android-applications-">Ques 11. How does PIP (picture in picture) works in android applications ?</h2>
 <h2 id="ques-10.-how-do-type-ahead-and-autosuggestion-work-">Ques 10. How do type-ahead and autosuggestion work ?</h2>
 
+    </div>
+  </div>
+</body>
+
+</html>
